@@ -4,15 +4,16 @@ const { getPrams } = require("./task_helper");
 
 exports.handleTestCallback = async (body, client) => {
   const paramValues = await getPrams(body.view.state.values);
-  const reportType = paramValues["dropdown"];
-  const partnerId = paramValues["textInput"];
+  const dropdownOption = paramValues["dropdown"];
+  const textInput = paramValues["textInput"];
 
   // log the interaction for reporting
+  debug(`test modal callback: ${dropdownOption} & ${textInput}`);
   logRequest(
     "test",
     {
-      partnerId: partnerId,
-      report_type: reportType,
+      textInput: textInput,
+      dropdown: dropdownOption,
     },
     body.user.username
   );

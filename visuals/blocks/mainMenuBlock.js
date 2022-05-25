@@ -30,6 +30,7 @@ exports.getBlock = () => {
         ],
       },
     ],
+    text: "main hello message",
   };
 };
 
