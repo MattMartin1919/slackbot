@@ -1,0 +1,25 @@
+{
+  "name": "basic_bot",
+  "version": "0.0.1",
+  "description": "A basic starter bot",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env DEBUG=starterbot:* nodemon app.js",
+    "start": "cross-env DEBUG=starterbot:* NODE_ENV=production node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Martin",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.11.1",
+    "cross-env": "^7.0.3",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.16"
+  }
+}
