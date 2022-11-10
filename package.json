@@ -14,7 +14,7 @@
     "@slack/bolt": "^3.11.1",
     "cross-env": "^7.0.3",
     "debug": "^4.3.4",
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.0.2",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
