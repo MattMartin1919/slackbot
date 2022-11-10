@@ -11,7 +11,7 @@
   "author": "Matt Martin",
   "license": "MIT",
   "dependencies": {
-    "@slack/bolt": "^3.11.1",
+    "@slack/bolt": "^3.11.2",
     "cross-env": "^7.0.3",
     "debug": "^4.3.4",
     "dotenv": "^16.0.2",
